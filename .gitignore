@@ -1,0 +1,31 @@
+# Ignore build folders
+x64/
+Debug/
+Release/
+.vs/
+
+# Ignore compiled binaries
+*.exe
+*.obj
+*.bin
+*.dll
+*.lib
+*.pdb
+
+# Ignore Visual Studio project files (optional if not collaborating on VS specifically)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.cache
+
+# Ignore OS-generated files
+Thumbs.db
+.DS_Store
+
+# Ignore VS Code settings (optional)
+.vscode/
